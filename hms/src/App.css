@@ -1,0 +1,92 @@
+.carousel-item img{
+    max-height: 100vh;
+}
+
+
+nav :hover{
+    background-color: rgb(255, 244, 190);
+    
+    color: rgb(188, 165, 72)! important;
+
+    transition:  1000ms;
+
+}
+
+
+.dashboard{
+    background-image: url("./images/premium-plus.jpg");
+    background-color: black;
+}
+.container-register{
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 1px 10px 10px rgb(66, 66, 66, 0.0.3);
+    line-height: 1.5;
+    text-align: center;
+    display: grid;position: fixed;
+    z-index: 1;
+    left: 30%;
+}
+.container-booking{
+      width: 90%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 1px 10px 10px rgb(66, 66, 66, 0.0.3);
+    line-height: 1.5;
+    text-align: center;
+    display: grid;
+    position: absolute;
+    overflow-y: auto;
+    top: 10%;
+    left: 5%;
+}
+h6{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.card{
+    top: 10%;
+}
+
+.container-dashboard{
+       width: 90%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 1px 10px 10px rgb(66, 66, 66, 0.0.3);
+    line-height: 1.5;
+    text-align: center;
+    display: grid;
+    position: absolute;
+    overflow-y: auto;
+    top: 10%;
+    left: 5%;
+}
+
+.nav-item{
+    color: black!important;
+    padding-right: 20px;
+    text-decoration: none!important;
+}
+
+.booking-image{
+    position: fixed;
+    top: 0;
+    
+}
